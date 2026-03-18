@@ -1,0 +1,87 @@
+main {
+  background-image: url(../assets/images/background/intro.png);
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: contain;
+}
+
+main #intro {
+  padding-top: 120px;
+  max-width: 1040px;
+  margin-inline: auto;
+}
+
+main #intro #inner-intro-container {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
+main #intro #inner-intro-container #avatar {
+  position: relative;
+  margin: 8px;
+  padding-bottom: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main #intro #inner-intro-container #avatar #code-icon {
+  position: absolute;
+  top: 45%;
+  left: 52.5%;
+  max-width: 32px;
+}
+
+main #intro #inner-intro-container #avatar #circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid var(--color-blue);
+}
+
+main #intro #inner-intro-container #avatar #circle img {
+  width: 87.27px;
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+main #intro #inner-intro-container h1 {
+  margin-bottom: 20px;
+}
+
+main #intro #inner-intro-container p {
+  color: var(--color-gray-400);
+  margin-bottom: 80px;
+}
+
+main #intro #tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+main #intro #tags .tag {
+  padding: 8px 16px;
+  font: var(--text-md);
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-500);
+  display: inline-flex;
+  border-radius: 20px;
+  align-items: center;
+  gap: 8px;
+}
+
+main #intro #tags .tag img {
+  height: 24px;
+}
+
+#caret-double-down {
+  margin-top: 94px;
+  height: 32px;
+}
